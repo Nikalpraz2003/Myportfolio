@@ -1,0 +1,129 @@
+/* =====================================================
+   EASY CUSTOMIZATION CONFIG
+   Change these values to customize your portfolio!
+   ===================================================== */
+
+/*
+  🎨 COLOR THEME
+  Copy hex codes from: coolors.co or colorhunt.co
+  Paste them below to change your entire color scheme!
+*/
+
+:root {
+    /* Main Colors - Change these to match your brand! */
+    --accent-teal: #00f5d4;       /* Primary accent (buttons, highlights) */
+    --accent-blue: #0096ff;       /* Secondary accent (gradients) */
+    --accent-purple: #9333ea;     /* Third accent (CV button) */
+    
+    /* Background Colors - Dark theme */
+    --primary-dark: #0a0e27;      /* Main background */
+    --secondary-dark: #151b35;    /* Card backgrounds */
+    --surface: #1e2747;           /* Elevated surfaces */
+    
+    /* Text Colors */
+    --text-primary: #ffffff;      /* Main text (white) */
+    --text-secondary: #b8c5d6;    /* Secondary text (light gray) */
+    --text-light: #8b96a8;        /* Light text (gray) */
+    
+    /* Effects */
+    --border: rgba(255, 255, 255, 0.1);        /* Border color */
+    --glass-bg: rgba(255, 255, 255, 0.05);     /* Glass effect background */
+    --glass-border: rgba(255, 255, 255, 0.15); /* Glass effect border */
+    
+    /* Shadows */
+    --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 10px 25px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.3);
+    
+    /* Animation Speed */
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);        /* Fast animations */
+    --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1); /* Smooth animations */
+}
+
+/*
+  💡 QUICK COLOR PALETTE IDEAS:
+  
+  Ocean Blue Theme:
+  --accent-teal: #00d4ff;
+  --accent-blue: #0080ff;
+  --accent-purple: #667eea;
+  
+  Sunset Orange Theme:
+  --accent-teal: #ff6b6b;
+  --accent-blue: #ff8e53;
+  --accent-purple: #fe9920;
+  
+  Forest Green Theme:
+  --accent-teal: #00ff88;
+  --accent-blue: #00cc6a;
+  --accent-purple: #0d9488;
+  
+  Purple Dreams Theme:
+  --accent-teal: #a855f7;
+  --accent-blue: #8b5cf6;
+  --accent-purple: #7c3aed;
+  
+  Copy any theme above and paste to replace the colors in :root{}
+*/
+
+/*
+  📏 SPACING & SIZES
+  Adjust these to change overall spacing
+*/
+
+.container {
+    max-width: 1200px;           /* Maximum width of content */
+    margin: 0 auto;
+    padding: 0 20px;             /* Side padding */
+}
+
+/*
+  🔤 FONT SIZES
+  Make text bigger or smaller
+*/
+
+.hero-title {
+    font-size: 3rem;             /* Main name size - default: 3rem */
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;           /* Tagline size - default: 1.3rem */
+}
+
+.section-title {
+    font-size: 2.5rem;           /* Section headings - default: 2.5rem */
+}
+
+/* 
+  To make all text bigger:
+  Change 16px to 18px or 20px below
+*/
+body {
+    font-size: 16px;             /* Base font size */
+}
+
+/*
+  ⚡ QUICK TIPS:
+  
+  1. To change ALL accent colors at once:
+     - Find :root { } at the top
+     - Change the 3 accent color hex codes
+     - Save and refresh!
+  
+  2. Want rounded corners everywhere?
+     - Search for: border-radius
+     - Increase the pixel values (e.g., 8px → 16px)
+  
+  3. Make buttons bigger:
+     - Search for: .btn {
+     - Increase padding values
+  
+  4. Change fonts:
+     - Go to index.html line 8
+     - Replace Google Fonts link
+     - Update font-family in this file
+  
+  5. Remove animations:
+     - Search for: animation
+     - Comment out or delete animation lines
+*/
